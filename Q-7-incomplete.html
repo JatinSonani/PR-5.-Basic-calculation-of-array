@@ -7,9 +7,20 @@
 </head>
 <body>
 
+    <!-- Q-7 Write a javascript program to all array element sum(using array map method). -->
+    <!--  ChatGPT Code    -->
+    
     <script>
 
-        let 
+        let arr = [10, 20, 30, 40, 50];
+        
+        let sum = arr.map(function (value) {
+            return value;
+        }).reduce(function (accumulator, currentValue) {
+            return accumulator + currentValue;
+        }, 0);
+
+        document.write("Sum of all array elements:", sum);
 
     </script>
 
